@@ -18,6 +18,7 @@ func Connect() *sql.DB {
 	// }
 	// db, err := sql.Open("mysql", cfg.FormatDSN())
 	// db, err := sql.Open("mysql", "golang_user:golang_user@tcp(localhost:3306)/mysql")
+
 	db, err := sql.Open("mysql", "sql7610344:zhwh4d66Xe@tcp(sql7.freesqldatabase.com:3306)/sql7610344")
 	if err != nil {
 		log.Fatal(err)
